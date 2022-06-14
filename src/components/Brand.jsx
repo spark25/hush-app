@@ -18,7 +18,7 @@ const Brand = ({large}) => {
       />
     </svg> */}
       <h1 className={`font-display font-semibold ${large? 'text-4xl' : 'text-2xl' } `}>
-        H<span className="text-h-primary text-4xl">.</span>
+        Hush<span className="text-h-primary text-4xl">.</span>
       </h1>
     </div>
   );

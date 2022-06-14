@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { auth } from "../firebase/firebaseinit";
 import HeroImage from "../assets/undraw_mailbox.svg";
-import HeroImage2 from "../assets/undraw_chatting.svg";
 import Brand from "./Brand";
 
 export const Login = () => {
