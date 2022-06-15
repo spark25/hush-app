@@ -65,13 +65,13 @@ export const Login = () => {
             type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            className="bg-h-black p-4 text-sm text-gray-200 focus:outline-none border-2 border-h-light focus:border-h-primary rounded"
+            className="bg-h-light p-4 text-sm text-gray-200 focus:outline-none border-2 border-h-light focus:border-h-primary rounded"
             placeholder="Username"
           />
           <input
             type="password"
             value={password}
-            className="bg-h-black p-4 text-sm text-gray-200 focus:outline-none border-2 border-h-light focus:border-h-primary rounded"
+            className="bg-h-light p-4 text-sm text-gray-200 focus:outline-none border-2 border-h-light focus:border-h-primary rounded"
             placeholder="Password"
             onChange={(e) => setPassword(e.target.value)}
           />

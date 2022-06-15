@@ -36,7 +36,7 @@ const ComposeMessage = () => {
   return (
     <div className="h-16 max-h-52 flex items-center px-4 py-2 bg-h-black">
       <textarea
-        className="w-full h-full max-h-52 resize-none rounded bg-h-light focus:outline-none py-2 px-4 text-gray-200 text-sm mr-2"
+        className="w-full h-full max-h-52 resize-none rounded bg-h-alt focus:outline-none py-2 px-4 text-gray-200 text-sm mr-2"
         placeholder="Message..."
         value={messageInput}
         onChange={(e) => setMessageInput(e.target.value)}

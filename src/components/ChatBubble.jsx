@@ -18,11 +18,12 @@ const ChatBubble = ({ chat }) => {
 
   return (
     <div
-      className={`p-2 ${
+      className={`p-2 w-max ${
         chat.uid === user.uid
-          ? "bg-h-primary ml-10 rounded-tl-2xl rounded-br-2xl rounded-bl-2xl"
-          : "bg-h-light mr-10 rounded-tr-2xl rounded-tr-2xl rounded-br-2xl rounded-bl-2xl"
+          ? "bg-h-primary rounded-tl-2xl rounded-br-2xl rounded-bl-2xl self-end"
+          : "bg-h-alt rounded-tr-2xl rounded-tr-2xl rounded-br-2xl rounded-bl-2xl"
       }`}
+      style={{ maxWidth: "90%" }}
     >
       <p
         className="text-sm whitespace-pre-line"
