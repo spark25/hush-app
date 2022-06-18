@@ -8,7 +8,7 @@ const Logout = () => {
   };
   return (
     <div
-      className="rounded-full h-10 w-10 shrink-0 flex items-center justify-center hover:bg-h-alt"
+      className="rounded-full h-10 w-10 shrink-0 flex items-center justify-center hover:bg-h-light"
       role="button"
       onClick={signout}
     >
